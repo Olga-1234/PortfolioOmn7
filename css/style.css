@@ -1,5 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Sail&family=Trade+Winds&display=swap");
 a {
   color: black !important;
+}
+
+.navbar-brand {
+  font-family: "Sail";
+}
+
+.p {
+  padding-top: 3%;
 }
 
 /*# sourceMappingURL=style.css.map */
