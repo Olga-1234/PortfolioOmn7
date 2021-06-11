@@ -1,10 +1,12 @@
 let listeProjet = document.querySelector("#liste-projet");
-
-fetch("https://my-json-server.typicode.com/Olga-1234/travail7/projets")
+fetch("https://my-json-server.typicode.com/Olga-1234/PortfolioOmn7/projets")
 .then(function(reponse) {
     return reponse.json();
-})
-.then(function(projets) {
+}) 
+
+.then(function(projets) 
+{
+console.log("projets" , projets )
     for (const projet of projets) {
         let blocProjet=document.createElement("div");
         let blocCard=document.createElement("div");
@@ -12,13 +14,10 @@ fetch("https://my-json-server.typicode.com/Olga-1234/travail7/projets")
 
         lienProjet.setAttribute("href",`${projet.link}`)
         blocProjet.classList.add("col");
-        blocCard.classList.ass("card shadow-sm")
+        blocCard.classList.add("shadow-sm" ,"card")
 
-        // let blocImgProjet=document.createElement("div");
-        // blocImgProjet.classList.add("bd-placeholder-img card-img-top");
-
-        let imgProjet=document.createElement("div");
-        imgProjet.classList.add("bd-placeholder-img card-img-top");
+        let imgProjet=document.createElement("img");
+        imgProjet.classList.add("bd-placeholder-img" ,"card-img-top");
         imgProjet.setAttribute("src",`${projet.image}`);
         imgProjet.setAttribute("alt", `${projet.titre}`);
         
@@ -34,13 +33,10 @@ fetch("https://my-json-server.typicode.com/Olga-1234/travail7/projets")
 
         listeProjet.appendChild(blocProjet);
         blocProjet.appendChild(blocCard)
-        blocCard.appendChild(blocImgProjet)
-        blocImgProjet.appendChild(lienProjet);
+        blocCard.appendChild(lienProjet)
         lienProjet.appendChild(imgProjet);
-
-        blocCard.appendChild(blocTextProjet);
-        blocTextProjet.appendChild(titreDescriptionProjet);
-        blocTextProjet.appendChild(textDescriptionProjet);
+        lienProjet.appendChild(titreDescriptionProjet);
+        lienProjet.appendChild(textDescriptionProjet);
 
 
     }
