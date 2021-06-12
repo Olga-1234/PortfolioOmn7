@@ -15,11 +15,18 @@
             "link":"https://olga-1234.github.io/travail4/"
                 },
                 {
-                    "titre":" Bienvenue dans KDA",
+                    "titre":" Bienvenue dans KD",
                     "description":"Structurer un document HTML à partir d'une maquette",
                     "image":"./img/projetconficius.jpg",
                     "alt":"article kda",
                     "link":"https://olga-1234.github.io/travail2/"
+                },
+                {
+                    "titre":"Allô ciné",
+                    "description":"Créer un site pour la recherche des films et visualisation",
+                    "image":"./img/allociné.jpg",
+                    "alt":"allô ciné",
+                    "link":"https://travail9-site-cinema.vercel.app/"
                 }
             ]
     
