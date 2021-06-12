@@ -1,17 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Sail&family=Trade+Winds&display=swap');
 
-a
-{
-    color: black !important;
-}
+
 .navbar-brand
 {
     font-family: 'Sail';
-
 }
-.p
+.py
 {
-    padding-top: 3%;
+    padding-top: 17%;
+}
+@media (max-width:700px)
+{
+  .py {
+    padding-top: 28%;
+
+  }
+ }
+
+.pz
+{
+    margin-top: -10%;
+}
+.police
+{
+    font-family:Georgia, 'Times New Roman', Times, sans-serif;
 }
 
 
