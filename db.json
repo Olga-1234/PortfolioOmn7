@@ -24,7 +24,7 @@
                 {
                     "titre":"Allô ciné",
                     "description":"Créer un site pour la recherche des films et visualisation",
-                    "image":"./img/allociné.png",
+                    "image":"./img/allocine.png",
                     "alt":"allô ciné",
                     "link":"https://travail9-site-cinema.vercel.app/"
                 }
