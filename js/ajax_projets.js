@@ -6,7 +6,6 @@ fetch("https://my-json-server.typicode.com/Olga-1234/PortfolioOmn7/projets")
 
 .then(function(projets) 
 {
-console.log("projets" , projets )
     for (const projet of projets) {
         let blocProjet=document.createElement("div");
         let blocCard=document.createElement("div");
