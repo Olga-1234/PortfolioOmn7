@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Sail&family=Trade+Winds&display=swap");
+
+.police {
+    font-family: Georgia, "Times New Roman", Times, sans-serif;
+
+}
+
+.with-about {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.fab_width {
+    font-size: 5em;
+}
+
+.padding-skills
+{
+    padding-left: 20%;
+    padding-right: 20%;
+}
