@@ -3,9 +3,9 @@
 
 import About from "./About";
 import Home from "./Home";
-import Other from "./other";
+import Other from "./Skills";
 import Project from "./project";
-import Skills from "./skills";
+
 // import NavBar from "./Navbar";
 
 function App() {
